@@ -1,1 +1,12 @@
-X-Zalando-Team: "machinery"
+X-Zalando-Team: machinery
+X-Zalando-Type: code
+  
+# Every PR needs two approvals from Zalando employees.
+approvals:
+  groups:
+    zalando:
+      minimum: 2
+      from:
+        orgs:
+          # Only "zalando" allowed here!
+          - zalando
